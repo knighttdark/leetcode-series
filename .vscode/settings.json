@@ -2,6 +2,7 @@
   "stm32-for-vscode.openOCDPath": false,
   "files.associations": {
     "unordered_map": "cpp",
-    "xlocale": "cpp"
+    "xlocale": "cpp",
+    "vector": "cpp"
   }
 }
