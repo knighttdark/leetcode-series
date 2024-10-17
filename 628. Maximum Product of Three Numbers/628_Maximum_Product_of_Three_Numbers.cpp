@@ -1,6 +1,7 @@
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 class Solution
 {
@@ -22,6 +23,11 @@ public:
                 }
             }
         }
+
+        /*
+        sort(nums.begin(), nums.end());
+        */
+
         int sum1 = nums[ns - 1] * nums[ns - 2] * nums[ns - 3];
         int sum2 = nums[0] * nums[1] * nums[ns - 1];
         return max(sum1, sum2);
