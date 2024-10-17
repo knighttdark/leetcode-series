@@ -4,6 +4,7 @@
     "unordered_map": "cpp",
     "xlocale": "cpp",
     "vector": "cpp",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "xutility": "cpp"
   }
 }
