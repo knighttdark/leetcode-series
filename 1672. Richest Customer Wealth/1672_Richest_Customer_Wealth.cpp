@@ -7,8 +7,8 @@ class Solution
 public:
     int maximumWealth(vector<vector<int>> &accounts)
     {
-        int numRow = accounts.size();
-        int numCol = accounts[0].size();
+        int numRow = accounts.size();    // number of customer
+        int numCol = accounts[0].size(); // number of bank
         int max = 0;
         for (int i = 0; i < numRow; i++)
         {
